@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        nav {
+            float: right;
+            margin-top: 10px;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        nav ul li {
+            display: inline;
+            margin-left: 5px;
+        }
+        section {
+            padding: 20px;
+            background: #ffffff;
+            margin: 20px 0;
+        }
+        footer {
+            background: #35424a;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>About Us</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="container">
+        <h2>Welcome to Our Company</h2>
+        <p>Our company has been at the forefront of innovation for over a decade. We specialize in providing top-notch services and products to our clients worldwide. Our team of experts is dedicated to ensuring customer satisfaction and delivering excellence in every project we undertake.</p>
+        <p>We believe in the power of collaboration and strive to build long-lasting relationships with our clients. Our mission is to empower businesses and individuals by providing them with the tools and resources they need to succeed in today's competitive market.</p>
+        <h3>Our Values</h3>
+        <ul>
+            <li>Integrity</li>
+            <li>Innovation</li>
+            <li>Excellence</li>
+            <li>Customer Focus</li>
+            <li>Teamwork</li>
+        </ul>
+        <p>Thank you for taking the time to learn more about us. We look forward to working with you and helping you achieve your goals.</p>
+    </section>
+    <footer>
+        <p>Our Company &copy; 2026. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
